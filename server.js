@@ -7,7 +7,7 @@ app.use(express.static('public'));
 
 // GET Route
 app.get('/', (req, res) =>
-  res.send('Hello World!')
+  res.send('Hello')
 )
 
 app.listen(PORT, () => console.log(`Listening on PORT: PORT`));
